@@ -1,6 +1,6 @@
 {
   "name": "prism-themes",
-  "displayName": "Prism Themes",
+  "displayName": "Prism Color Themes",
   "description": "A VS Code theme collection. First drop: 12 themes (6 families x light/dark) ported from the T3 Code app — T3 Chat / Grove / Ocean / Ember / Iris + the bundled Material pair. Includes a status-bar quick switcher.",
   "version": "1.0.3",
   "publisher": "blueskeys",
