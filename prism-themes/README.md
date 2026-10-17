@@ -27,7 +27,7 @@
 上架 Marketplace 后可直接搜索 **Prism Themes** 安装，或：
 
 ```bash
-code --install-extension <publisher-id>.prism-themes
+code --install-extension blueskeys.prism-themes
 ```
 
 本仓库为源码。用 VS Code 打开 `prism-themes/` 目录后 `F5` 调试预览，或：
@@ -42,7 +42,7 @@ code --install-extension prism-themes-1.0.3.vsix
 
 ## 生成与再构建
 
-主题 JSON 由脚本从 T3 Code 安装包（`server.asar`）提取的真实定义生成，不是目测取色：
+主题 JSON 由脚本从 T3 Code 的真实主题定义生成（不是目测取色）。调色板可从本机安装包（`server.asar`）提取，也可直接取自 MIT 开源仓库的 `packages/shared/src/themePalettes.ts`：
 
 ```bash
 python tools/extract_all.py       # 提取 5 族色板 + 2 套 Material 基底 → tools/data/
@@ -53,5 +53,8 @@ python tools/generate_themes.py   # 按映射表生成 12 套 themes/*.json
 
 ## 致谢与许可
 
+- UI 调色板（61 键 OKLCH × 5 族）移植自 **T3 Code** 开源仓库（[pingdotgg/t3code](https://github.com/pingdotgg/t3code)，MIT，© 2026 T3 Tools Inc.）。
 - 语法 token 规则与部分编辑器内配色来自 **Material Theme**（Mattia Astorino，MIT）。
-- UI 调色板（61 键 OKLCH）提取自本机安装的 T3 Code 应用，仅供个人使用；公开发布前请自行确认相关授权（见 `NOTICE`）。
+- 完整的第三方声明见 [`NOTICE`](NOTICE)。
+
+> **声明**：本插件为非官方移植（unofficial port），与 T3 Code / T3 Tools Inc. 无隶属关系，亦未获其背书。
