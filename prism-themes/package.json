@@ -5,6 +5,7 @@
   "version": "1.0.3",
   "publisher": "blueskeys",
   "license": "MIT",
+  "icon": "images/icon.png",
   "galleryBanner": {
     "color": "#17212b",
     "theme": "dark"
