@@ -1,0 +1,110 @@
+{
+  "name": "prism-themes",
+  "displayName": "Prism Themes",
+  "description": "A VS Code theme collection. First drop: 12 themes (6 families x light/dark) ported from the T3 Code app — T3 Chat / Grove / Ocean / Ember / Iris + the bundled Material pair. Includes a status-bar quick switcher.",
+  "version": "1.0.3",
+  "publisher": "local",
+  "license": "MIT",
+  "galleryBanner": {
+    "color": "#17212b",
+    "theme": "dark"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/blueskeys/prism-vscode-themes.git"
+  },
+  "keywords": [
+    "theme",
+    "color theme",
+    "prism",
+    "t3",
+    "dark theme",
+    "light theme"
+  ],
+  "engines": {
+    "vscode": "^1.80.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "activationEvents": [
+    "onStartupFinished"
+  ],
+  "main": "./extension.js",
+  "contributes": {
+    "themes": [
+      {
+        "label": "T3 Ocean Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/t3-ocean-dark.json"
+      },
+      {
+        "label": "T3 Ocean Light",
+        "uiTheme": "vs",
+        "path": "./themes/t3-ocean-light.json"
+      },
+      {
+        "label": "T3 Grove Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/t3-grove-dark.json"
+      },
+      {
+        "label": "T3 Grove Light",
+        "uiTheme": "vs",
+        "path": "./themes/t3-grove-light.json"
+      },
+      {
+        "label": "T3 Ember Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/t3-ember-dark.json"
+      },
+      {
+        "label": "T3 Ember Light",
+        "uiTheme": "vs",
+        "path": "./themes/t3-ember-light.json"
+      },
+      {
+        "label": "T3 Iris Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/t3-iris-dark.json"
+      },
+      {
+        "label": "T3 Iris Light",
+        "uiTheme": "vs",
+        "path": "./themes/t3-iris-light.json"
+      },
+      {
+        "label": "T3 Chat Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/t3-t3-chat-dark.json"
+      },
+      {
+        "label": "T3 Chat Light",
+        "uiTheme": "vs",
+        "path": "./themes/t3-t3-chat-light.json"
+      },
+      {
+        "label": "T3 Material Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/t3-material-dark.json"
+      },
+      {
+        "label": "T3 Material Light",
+        "uiTheme": "vs",
+        "path": "./themes/t3-material-light.json"
+      }
+    ],
+    "commands": [
+      {
+        "command": "prismThemes.quickSwitch",
+        "title": "Prism Themes: Quick Switch Theme",
+        "icon": "$(color-mode)"
+      },
+      {
+        "command": "prismThemes.openPicker",
+        "title": "Prism Themes: Color Scheme (T3 Style)",
+        "icon": "$(color-mode)"
+      }
+    ]
+  }
+}

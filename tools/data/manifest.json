@@ -1,0 +1,62 @@
+[
+  {
+    "label": "T3 Chat Light",
+    "uiTheme": "vs",
+    "path": "themes/t3-t3-chat-light.json"
+  },
+  {
+    "label": "T3 Chat Dark",
+    "uiTheme": "vs-dark",
+    "path": "themes/t3-t3-chat-dark.json"
+  },
+  {
+    "label": "T3 Grove Light",
+    "uiTheme": "vs",
+    "path": "themes/t3-grove-light.json"
+  },
+  {
+    "label": "T3 Grove Dark",
+    "uiTheme": "vs-dark",
+    "path": "themes/t3-grove-dark.json"
+  },
+  {
+    "label": "T3 Ocean Light",
+    "uiTheme": "vs",
+    "path": "themes/t3-ocean-light.json"
+  },
+  {
+    "label": "T3 Ocean Dark",
+    "uiTheme": "vs-dark",
+    "path": "themes/t3-ocean-dark.json"
+  },
+  {
+    "label": "T3 Ember Light",
+    "uiTheme": "vs",
+    "path": "themes/t3-ember-light.json"
+  },
+  {
+    "label": "T3 Ember Dark",
+    "uiTheme": "vs-dark",
+    "path": "themes/t3-ember-dark.json"
+  },
+  {
+    "label": "T3 Iris Light",
+    "uiTheme": "vs",
+    "path": "themes/t3-iris-light.json"
+  },
+  {
+    "label": "T3 Iris Dark",
+    "uiTheme": "vs-dark",
+    "path": "themes/t3-iris-dark.json"
+  },
+  {
+    "label": "T3 Material Dark",
+    "uiTheme": "dark",
+    "path": "themes/t3-material-dark.json"
+  },
+  {
+    "label": "T3 Material Light",
+    "uiTheme": "light",
+    "path": "themes/t3-material-light.json"
+  }
+]

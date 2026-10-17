@@ -1,0 +1,20 @@
+Prism Themes
+============
+
+This extension contains:
+
+1. Ported UI palettes (61 semantic OKLCH keys per family, converted to sRGB hex)
+   extracted from a locally installed copy of the T3 Code desktop application
+   (server.asar). Themes: T3 Chat, Grove, Ocean, Ember, Iris — each in light
+   and dark variants. These palettes belong to the T3 Code application;
+   this port is intended for personal use.
+
+2. Syntax token colors (tokenColors, 82 rules), the 16 terminal ANSI colors and
+   a set of editor-internal colors taken from the "Material Theme Ocean" and
+   "Material Theme Lighter" themes bundled inside the same application.
+   Material Theme is © Mattia Astorino, licensed MIT
+   (https://github.com/equinusocio/vscode-material-theme). The upstream archive
+   did not include a separate LICENSE copy inside the application bundle;
+   attribution is given here per the upstream MIT license.
+
+Extension code (extension.js, theme generation scripts): MIT.
